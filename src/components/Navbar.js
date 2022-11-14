@@ -22,13 +22,13 @@ const Navbar = () =>{
                 <Link class="nav-link active" to="/new-arrival">New Arrival</Link>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" aria-disabled>About</a>
+                <a class="nav-link" disabled>About</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" aria-disabled>Contact</a>
+                <a class="nav-link" disabled>Contact</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" aria-disabled>Link</a>
+                <a class="nav-link" disabled>Link</a>
                 </li>
             </ul>
             <form class="d-flex" role="search">
