@@ -26,7 +26,7 @@ const Carousel = () => {
                     <h5>New Arrival</h5>
                     <p>Koleksi buku-buku terbaru yang ada di toko kami! </p>
                     <div class="slider-btn">
-                        <button type="button" class="btn btn-danger" onClick={()=>{navigate('/new')}}>New Book!</button>
+                        <button type="button" class="btn btn-danger" onClick={()=>{navigate('/new-arrival')}}>New Book!</button>
                     </div>
                 </div>
                 </div>
