@@ -5,9 +5,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #ececec;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.carousel-item{
+  height:100vh;
+  min-height:300px;
+  background: no-repeat scroll center scroll;
+  -webkit-background-size:cover;
+  background-size: cover;
+}
+
+.carousel-item::before{
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  background:#000;
+  opacity:0.7;
+}
+
+.carousel-caption{
+  bottom:180px;
+  padding-left:100px;
+  padding-right:100px;
+}
+
+.carousel-caption h5{
+  font-size:100px;
+  font-weight:700;
+}
+
+.carousel-caption p{
+  font-size: 18px;
+  top: 2rem;
+  
+}
+
+.slider-btn{
+  margin-top:30px;
+}
+
+

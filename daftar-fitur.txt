@@ -1,0 +1,28 @@
+modul 16 :
+-> Memiliki button untuk menyimpan data username dan password ke dalam local storage dalam bentuk satu object user
+-> mengupdate object user dalam local storage bila berubah
+-> Mengambil dan menampilkan object user dari local storage
+-> Menghapus object user dari local storage melalui ui 
+
+modul 15 :
+-> Fetching data dari end point API menggunakan axios
+-> Mengolah data API tersebut baik dalam bentuk array object atau pun satu objek saja agar dapat digunakan
+-> Mengambil data tersebut dan ditampilkan secara dinamis ke dalam komponen card di website 
+-> Membuat fitur search yang akan mengambil inputan user dan secara dinamis mengubah link API sesuai inputan dari user sehingga hanya menampilkan buku yang diinginkan user
+
+modul 14:
+-> Memiliki routing halaman
+
+modul 13 :
+-> menggunakan library react js untuk membangun website
+-> menerapkan fitur component dari react js
+-> mempercantik tampilan website menggunakan react-bootstrap
+
+modul 12: 
+-> fetching data dari endpoint API
+-> menampilkan data yang diambil dari API ke dalam tabel
+-> membuat fitur search untuk menampilkan detail buku berdasarkan isbn13
+
+modul 11:
+-> membuat struktur html web yang lengkap 
+-> memperindah tampilan website menggunakan css
