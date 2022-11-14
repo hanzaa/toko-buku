@@ -18,7 +18,7 @@ const Details = ()=>{
         }
     
         getDetails()
-    },[])
+    },[data])
 
     useEffect(()=>{
         if(data){
