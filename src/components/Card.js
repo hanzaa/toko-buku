@@ -10,13 +10,12 @@ const Card = () =>{
 
     const[data,setData] = useState([])
     const[element,setElement] = useState([false])
-    
-    const getData = async()=>{
-        await axios.get('https://api.itbook.store/1.0/new')
-        .then(res => {setData(res.data.books)})
-    }
 
     useEffect(()=>{
+        const getData = async()=>{
+            await axios.get('https://api.itbook.store/1.0/new')
+            .then(res => {setData(res.data.books)})
+        }
         getData()
     },[])
 

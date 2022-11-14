@@ -21,15 +21,6 @@ const Navbar = () =>{
                 <li class="nav-item">
                 <Link class="nav-link active" to="/new-arrival">New Arrival</Link>
                 </li>
-                <li class="nav-item">
-                <a class="nav-link" disabled>About</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" disabled>Contact</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" disabled>Link</a>
-                </li>
             </ul>
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
