@@ -18,7 +18,7 @@ const Search = () => {
             .then(res => {setData(res.data.books)})
         }
         getData()
-    },[data])
+    })
 
     useEffect(()=>{
         if(data){
