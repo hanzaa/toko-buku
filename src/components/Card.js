@@ -25,7 +25,7 @@ const Card = () =>{
             setElement(true)
             console.log("succes!")
         }
-    })
+    },[data])
 
     return(
         <>

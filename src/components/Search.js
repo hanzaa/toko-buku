@@ -26,7 +26,7 @@ const Search = () => {
             console.log(data.length)
             console.log("succes!")
         }
-    })
+    },[data])
 
 
     return ( 

@@ -22,7 +22,7 @@ const Table = () => {
             setElement(true)
             console.log("succes!")
         }
-    })
+    },[data])
 
 
     return ( 
@@ -44,7 +44,7 @@ const Table = () => {
                     </thead>        
                     <tbody>
                         {data.map((data) =>{
-                            let { title, subtitle, isbn13, price, image } = data;
+                            let { title, subtitle, isbn13, price } = data;
 
                             return(
                                     <tr>
