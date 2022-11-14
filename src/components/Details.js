@@ -57,7 +57,7 @@ const Details = ()=>{
                         <h5 className="card-text">Rating </h5> <p className="card-text"> {data.rating}</p> <br></br>
                         <h5 className="card-text">Description </h5> <p className="card-text"> {data.desc}</p> <br></br>
                         <h5 className="card-text">Price </h5> <p className="card-text"> {data.price}</p> <br></br>
-                        <h3 className="card-text">PDF </h3> <a className="card-text" href={pdf['Free eBook']} > {pdf['Free eBook']}</a>
+                        <h3 className="card-text">PDF </h3> <a className="card-text" href={pdf['Free eBook']} target='_blank' rel='noopener norefferer'> {pdf['Free eBook']}</a>
                      
                     </div>
                 </div>
