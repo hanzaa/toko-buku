@@ -57,7 +57,7 @@ const Search = () => {
                             })}
                             </> 
                             :<>
-                            <div className="card flex-row flex-wrap mb-5" style={{width:"48rem",marginTop:"50px"}} onClick={()=>{navigate(`/details/${isbn13}`)}}>
+                            <div className="card flex-row flex-wrap mb-5" style={{width:"48rem",marginTop:"50px"}}>
                             <div className="card-header border-0">
                                 <img src={require('../assets/open-book.png')} alt="Buku.jpg" width="200" height="220" class="px-4"/>
                             </div>

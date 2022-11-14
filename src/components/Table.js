@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom';
 
 const Table = () => {
 
-    
-
     const[data,setData] = useState([])
     const[element,setElement] = useState([false])
 
@@ -31,7 +29,7 @@ const Table = () => {
         <>
         {element ? 
             <>
-                <div className="card flex-row flex-wrap mb-5" style={{width:"48rem",marginTop:"50px"}} onClick={()=>{navigate(`/details/${isbn13}`)}}>
+                <div className="card flex-row flex-wrap mb-5" style={{width:"48rem",marginTop:"50px"}} >
                     <table class= "table table-striped border" >
                     <thead style={{tableLayout:'fixed',textOverflow:'inherit'}}>
                         <tr>
