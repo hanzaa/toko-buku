@@ -2,15 +2,12 @@ import {useNavigate,useParams} from 'react-router-dom';
 import axios from 'axios';
 import {useEffect,useState} from 'react';
 
-
 const Search = () => {
     const {query} = useParams()
     const navigate = useNavigate()
 
     const[data,setData] = useState([])
     const[element,setElement] = useState([false])
-
-
 
     useEffect(()=>{
         const getData = async()=>{

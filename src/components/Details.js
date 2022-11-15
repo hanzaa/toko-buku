@@ -10,7 +10,6 @@ const Details = ()=>{
     const[pdf,setPdf]=useState([])
     const[element,setElement]=useState([false])
 
-
     useEffect(()=>{
         const getDetails = async() => {
             await axios.get(`https://api.itbook.store/1.0/books/${isbn}`)
