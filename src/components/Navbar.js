@@ -26,7 +26,7 @@ const Navbar = () =>{
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"
                 onChange={(typing)=>setText(typing.target.value)}/>
                 <button class="btn btn-outline-danger text-white" type="submit"
-                onClick={()=>{navigate('/search/'+text)}}>Search</button>
+                onClick={()=>{navigate(`/search/${text}`)}}>Search</button>
             </form>
             </div>
         </div>
