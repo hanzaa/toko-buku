@@ -14,7 +14,8 @@ code {
 }
 
 .carousel-item{
- 
+  
+  min-height:300px;
   background: no-repeat scroll center scroll;
   -webkit-background-size:cover;
   background-size: cover;
@@ -22,7 +23,7 @@ code {
 
 .carousel-item::before{
   content:"";
-  display:relative;
+  display:block;
   position:absolute;
   top:0;
   left:0;
