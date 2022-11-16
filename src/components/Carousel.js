@@ -13,16 +13,16 @@ const Carousel = () => {
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                <img src={require('../assets/books.jpg')} class="d-block w-100" alt="..."/>
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-item active ">
+                <img src={require('../assets/books.jpg')} class="w-100 d-block" alt="..."/>
+                <div class="carousel-caption ">
                     <h5>Netlab Bookstore</h5>
                     <p>Netlab Bookstore merupakan sebuah toko buku yang memiliki berbagai macam buku yang dapat kamu cari!</p>
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src={require('../assets/books2.jpg')} class="d-block w-100" alt="..."/>
-                <div class="carousel-caption d-none d-md-block">
+                <img src={require('../assets/books2.jpg')} class="w-100 d-block" alt="..."/>
+                <div class="carousel-caption ">
                     <h5>New Arrival</h5>
                     <p>Koleksi buku-buku terbaru yang ada di toko kami! </p>
                     <div class="slider-btn">
