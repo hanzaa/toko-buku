@@ -22,7 +22,7 @@ code {
 
 .carousel-item::before{
   content:"";
-  display:block;
+  display:relative;
   position:absolute;
   top:0;
   left:0;
