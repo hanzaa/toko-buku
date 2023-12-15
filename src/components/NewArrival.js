@@ -15,13 +15,13 @@ const NewArrival = () => {
     return ( 
         <>
         <div className="container">
-            <div className="d-flex justify-content-end flex-column" style={{alignItems:"center"}}>
-                <div className="row">
+            <div className="d-flex justify-content-between flex-column" style={{alignItems:"center"}}>
+                <div className="row ">
                     <div className="col">
-                        <h2  className="fw-bold"style={{width:"38rem",marginTop:"50px"}}>New Arrival</h2>
+                        <h2  className="fw-bold"style={{width:"auto",marginTop:"50px"}}>New Arrival</h2>
                     </div>
                     <div className="col">
-                        <button type="button" class="btn btn-outline-danger" onClick={handle} style={{width:"15rem",marginTop:"50px"}}>Change View Mode</button>
+                        <button type="button" class="btn btn-outline-danger" onClick={handle} style={{width:"auto",marginTop:"50px"}}>Change View Mode</button>
                     </div>
                 </div>
                 {element ? <Card/> : <Table/> }
